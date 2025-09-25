@@ -1,6 +1,7 @@
 # Campus Course & Records Manager (CCRM)
 
-A comprehensive console-based Java application for managing academic records, courses, students, and grades in educational institutions.
+A console-based **Java SE project** for managing students, courses, enrollments, grades, transcripts, and file utilities.  
+This project demonstrates **OOP principles, Java Streams, NIO.2, Date/Time API, exception handling, design patterns (Singleton, Builder), enums, and recursion**.
 
 ## 📋 Table of Contents
 - [Project Overview](#project-overview)
@@ -91,7 +92,18 @@ CCRM is a Java SE application that provides comprehensive management of:
     - Run: `java -version`
     - Expected output: Java version information
 
-![JDK Installation Verification](screenshots/java-version.png)
+ Open a new PowerShell and verify:
+   - `java -version` (<img width="1125" height="321" alt="image" src="https://github.com/user-attachments/assets/ae635128-2012-4186-b6b9-fa4dea832678" />
+)
+   - `javac -version` (<img width="1276" height="282" alt="image" src="https://github.com/user-attachments/assets/0727cbdb-2167-42c7-a978-72c74d0f89f6" />
+)
+5. Install Maven (either ZIP or Scoop) and verify:
+   - `mvn -v` (<img width="1437" height="362" alt="image" src="https://github.com/user-attachments/assets/f5719f2d-2ce3-4ec6-844a-ea4a11620097" />
+)
+
+- JDK install wizard: <img width="611" height="457" alt="image" src="https://github.com/user-attachments/assets/5f56e233-8ce4-4a38-83e0-a81eab67feff" />
+
+---
 
 ### Eclipse IDE Setup
 
@@ -114,42 +126,10 @@ CCRM is a Java SE application that provides comprehensive management of:
     - Right-click project → Run As → Java Application
     - Or use Ctrl+F11 shortcut
 
-![Eclipse Project Setup](screenshots/eclipse-setup.png)
+<img width="1146" height="629" alt="image" src="https://github.com/user-attachments/assets/4509d81c-3685-4f07-b6de-b25c4d1d64ad" />
 
-## 🚀 How to Run
 
-### Method 1: Command Line
-```bash
-# Compile the application
-javac CCRM.java
 
-# Run the application
-java CCRM
-
-# Run with assertions enabled
-java -ea CCRM
-
-Got it 👍 You want a professional `README.md` file for your **CCRM** GitHub repo that follows the exact deliverables list from your assignment. I’ll draft a complete README for you, including placeholders where you’ll insert your screenshots, commands, and demo links.
-
-Here’s a ready-to-use version ⬇️
-
----
-
-# CCRM – Course & Curriculum Resource Manager
-
-## 📌 Project Overview
-
-CCRM (**Course & Curriculum Resource Manager**) is a Java-based system that helps manage courses, semesters, and related resources efficiently.
-It demonstrates **Java programming fundamentals** with practical examples like file handling, OOP concepts, streams, predicates, and date/time APIs.
-
-This repository includes:
-
-* Source code (`.java` files) with a runnable **main class** (`CCRM.java`)
-* Documentation (`README.md`, `USAGE.md`)
-* Screenshots (JDK setup, Eclipse project, program run)
-* Sample test data (`/test-data/*.csv`)
-
----
 
 ## 🚀 How to Run
 
@@ -231,12 +211,11 @@ This repository includes:
 ### Eclipse Setup
 
 1. Download Eclipse IDE.
-2. Configure workspace → Import project.
-3. Verify by running `CCRM.java`.
+<img width="641" height="752" alt="Screenshot 2025-09-25 183704" src="https://github.com/user-attachments/assets/7b4180cd-ab5c-43e0-a37f-9afd0ab433d9" />
 
-✅ *Screenshot here →* `screenshots/eclipse_setup.png`
+3. Configure workspace → Import project.
+4. Verify by running `CCRM.java`.
 
----
 
 ## 📑 Mapping Table (Syllabus → Code Reference)
 
@@ -283,16 +262,30 @@ CCRM/
 
 ---
 
-## ▶️ Demo Video (Optional)
-
-📹 [Watch Demo](https://youtu.be/your-demo-link)
-
----
 
 ## 🙌 Acknowledgements
 
 * Oracle Java Documentation
 * Eclipse IDE documentation
 * [Baeldung Java Tutorials](https://www.baeldung.com/)
+
+--- 
+
+## ⚠️ Academic Integrity
+
+Original work created for educational purposes. Cite references as needed.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Java SE 24**
+- **Maven 3.9+**
+- Uses: Java Streams, NIO.2, Date/Time API, OOP principles, Design Patterns
+
+
+### Prerequisites
+- Java 24+
+- Apache Maven 3.9+
 
 
