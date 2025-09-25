@@ -206,7 +206,6 @@ CCRM is a Java SE application that provides comprehensive management of:
    java -version
    ```
 
-✅ *Screenshot here →* `screenshots/jdk_installation.png`
 
 ### Eclipse Setup
 
